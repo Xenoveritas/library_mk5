@@ -42,3 +42,7 @@ gem 'dropbox_api'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :test do
+  gem 'simplecov', require: false
+end
